@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>She Wheels | Empowering Women on the Road</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #800000;
+      color: #000;
+    }
+    header {
+      background-color: #e91e63;
+      color: white;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://picsum.photos/1200/600') no-repeat center center/cover;
+      color: white;
+      padding: 5em 2em;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    .intro, .featured, .consulting, .blog {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .featured-cars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .car-card {
+      background: white;
+      color: #000;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 300px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .car-card .info {
+      padding: 1em;
+    }
+    .consulting ul {
+      padding-left: 1.2em;
+    }
+    .consulting li {
+      margin-bottom: 0.5em;
+    }
+    .blog-posts {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    .blog-post {
+      background: white;
+      color: #000;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 1em;
+      background: #25D366;
+      color: white;
+      padding: 0.8em 1.5em;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>She Wheels</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Cars</a>
+      <a href="#">Advice</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to She Wheels</h1>
+    <p>Empowering women through the journey of buying and owning cars</p>
+  </div>
+
+  <section class="intro">
+    <h2>What We Do</h2>
+    <p>
+      She Wheels is your trusted car dealership and advice hub, designed with women in mind.
+      Whether you’re buying your first car or looking for expert car tips, we’ve got your back.
+    </p>
+  </section>
+
+  <section class="featured">
+    <h2>Featured Cars</h2>
+    <div class="featured-cars">
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1589394815340-5c4e5c9a6f56" alt="Toyota Vitz" />
+        <div class="info">
+          <h3>2015 Toyota Vitz</h3>
+          <p>Ksh 850,000 • Compact • Fuel Efficient • Great for City Use</p>
+        </div>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1597003413447-6f3a476c43e3" alt="Mazda Demio" />
+        <div class="info">
+          <h3>2016 Mazda Demio</h3>
+          <p>Ksh 950,000 • Sleek Design • Affordable Maintenance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="consulting">
+    <h2>Consulting & Import Services</h2>
+    <p>Need expert help choosing or importing your next car? Our team is here to support you every step of the way:</p>
+    <ul>
+      <li>One-on-one car buying consultations</li>
+      <li>Import assistance for vehicles from Japan, UK, and UAE</li>
+      <li>Car inspection and condition reports</li>
+      <li>Ownership transfer and registration guidance</li>
+    </ul>
+    <a class="whatsapp-btn" href="https://wa.me/254714984020" target="_blank">Book on WhatsApp</a>
+  </section>
+
+  <section class="blog">
+    <h2>Tips & Advice</h2>
+    <div class="blog-posts">
+      <div class="blog-post">
+        <h3>Top 5 Cars for First-Time Female Drivers in Kenya</h3>
+        <p>Affordable, reliable, and stylish — see our top picks for women hitting the road for the first time.</p>
+      </div>
+      <div class="blog-post">
+        <h3>What to Check Before Buying a Used Car</h3>
+        <p>Learn how to inspect a car’s history, engine condition, and documents like a pro.</p>
+      </div>
+      <div class="blog-post">
+        <h3>Should You Import or Buy Locally?</h3>
+        <p>We weigh the pros and cons of importing vs. buying from local showrooms.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 She Wheels. All rights reserved.</p>
+  </footer>
+</body>
+</html>
